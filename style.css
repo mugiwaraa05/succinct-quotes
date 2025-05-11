@@ -6,8 +6,7 @@
     height: 60px;
   }
   .quote-box {
-     padding-top: 80px;
-    padding: 20px;
+     padding-top: 100px;
   }
 
   .quote-box h2 {
@@ -38,6 +37,7 @@ body{
     background-size: cover;
 }
 .quote-box{
+ padding-top: 120px;
 background: #fff;
 width: 90%;
 max-width: 700px;
@@ -58,6 +58,7 @@ color: black;
     font-size: 32px;
     margin-bottom:40px;
     position: relative;
+   z-index: 2;
 }
 .quote-box h2::after{
     content: '';
@@ -164,6 +165,7 @@ color: black;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgb(254, 17, 197);
+    z-index: 1;
   }
   
   .quote-box blockquote,
