@@ -1,3 +1,22 @@
+@media (max-width: 480px) {
+  .quote-box {
+    padding: 20px;
+  }
+
+  .quote-box h2 {
+    font-size: 24px;
+  }
+
+  .quote-box button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .quote-box .download-button img {
+    width: 28px;
+    height: 28px;
+  }
+}
 
     @font-face {
         font-family: 'ABCViafont';
