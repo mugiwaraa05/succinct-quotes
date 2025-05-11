@@ -13,11 +13,13 @@ body{
 }
 .quote-box{
 background: #fff;
-width: 700px;
-position: absolute;
-top:50%;
-left:50%;
-transform: translate(-50%,-50%);
+width: 90%;
+max-width: 700px;
+margin: 60px auto;
+position: relative;
+top: auto;
+left: auto;
+transform: none;
 padding: 40px;
 border-radius: 10px;
 text-align: center;
