@@ -135,15 +135,15 @@ color: black;
   .animate-quote {
     animation: fadeInUp 0.4s ease;
   }
-  #music-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
-  
+   #music-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 20px; 
+  z-index: 10;
+} 
   #music-toggle img {
     width: 25px;
     height: 25px;
