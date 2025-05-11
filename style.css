@@ -1,0 +1,180 @@
+
+    @font-face {
+        font-family: 'ABCViafont';
+        src: url('ABCViafont-Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+
+body{
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.quote-box{
+background: #fff;
+width: 700px;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+padding: 40px;
+border-radius: 10px;
+text-align: center;
+box-shadow:0 10px 20px 0px rgba(0 ,0 ,0 ,0.15);
+font-family: 'ABCViafont', serif;
+color: black;
+}
+
+.quote-box h2{
+    font-size: 32px;
+    margin-bottom:40px;
+    position: relative;
+}
+.quote-box h2::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius:3px;
+    background:rgb(254, 17, 197);
+    position: absolute;
+    bottom: -10px;
+    left:50%;
+    transform: translate(-50%);
+}
+.quote-box blockquote{
+    font: size 20px;
+    min-height:110px;
+    color: black;
+}
+.quote-box blockquote::before,  .quote-box blockquote::after{
+    content:'"' ;
+}
+.quote-box span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+    color: black;
+}
+.quote-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(254, 17, 197);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-box button{
+    background: rgb(254, 17, 197);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(254, 17, 197);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'ABCViafont', serif;
+
+}
+    .quote-box button:hover {
+        background: rgb(254, 17, 197); 
+        transform: scale(1.05); 
+ }
+.quote-box button img{
+    width: 20px;
+    margin-right: 10px;
+}
+.quote-box button:nth-child(2){
+    background: transparent;
+    color: #333;
+
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-quote {
+    animation: fadeInUp 0.4s ease;
+  }
+  #music-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  #music-toggle img {
+    width: 25px;
+    height: 25px;
+  }
+  .author-img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(254, 17, 197);
+  }
+  
+  .quote-box blockquote,
+.quote-box span#author {
+  color: #000 !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+/* Add this to override inherited .quote-box button styles */
+.quote-box .download-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none !important;
+    border: none !important;
+    padding: 0;
+    cursor: pointer;
+    z-index: 2;
+    color: inherit;
+    box-shadow: none;
+    font: inherit;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.4));
+  }
+  
+  /* Style the icon inside */
+  .download-button img {
+    width: 70px;
+    height: 40px;
+    display: block;
+    opacity: 0.1;
+  }
+  
+  .download-button:hover img {
+    opacity: 1;
+  }
+  
+
+  
+  
+  
+  
+
