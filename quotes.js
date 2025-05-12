@@ -122,6 +122,22 @@ const quotes = [
         author: "Advaith"
     },
     {
+        quote: "@Itsfatcheeks Crashouts is what I live for.",
+        author: "Anntech"
+    },
+    {
+        quote: "What if Stage 2 was just all Staged too?🥀",
+        author: "Anntech"
+    },
+     {
+        quote: "succinct is succinctness",
+        author: "Alhassan H"
+    },
+    {
+        quote: "Waaaaaaaaaaaaa Mom i made it to the top 100 on @SuccinctLabs yappers leaderboard!",
+        author: "Chixxey"
+    },
+    {
         quote: "Not joining Succinct rn is like not buying BTC in 2010.",
         author: "Advaith"
     }
